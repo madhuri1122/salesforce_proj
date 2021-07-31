@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="199651" started-at="2021-07-30T19:23:55 IST" finished-at="2021-07-30T19:27:15 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:pages.ContactDelete_Runner@5606c0b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:pages.Import_Runner@80ec1f8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:pages.LogOut_Runner@6a396c1e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:pages.Login_Runner@37574691]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:pages.PickList_Runner@1445d7f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:pages.Runner@25359ed8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:pages.WebtoLead_Runner@21a947fe]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="199651" started-at="2021-07-30T19:23:55 IST" finished-at="2021-07-30T19:27:15 IST">
+      <class name="pages.WebtoLead_Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:pages.WebtoLead_Runner@21a947fe]" name="setUpClass" is-config="true" duration-ms="80" started-at="2021-07-30T19:25:45 IST" finished-at="2021-07-30T19:25:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:pages.WebtoLead_Runner@21a947fe]" name="runScenario" duration-ms="5350" started-at="2021-07-30T19:25:45 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-30T19:25:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["navigate url,fill and submit the form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[navigate webtolead url,fill the form and submit]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:pages.WebtoLead_Runner@21a947fe]" name="tearDownClass" is-config="true" duration-ms="55" started-at="2021-07-30T19:25:50 IST" finished-at="2021-07-30T19:25:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- pages.WebtoLead_Runner -->
+      <class name="pages.Login_Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:pages.Login_Runner@37574691]" name="setUpClass" is-config="true" duration-ms="1696" started-at="2021-07-30T19:23:55 IST" finished-at="2021-07-30T19:23:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:pages.Login_Runner@37574691]" name="runScenario" duration-ms="11933" started-at="2021-07-30T19:23:57 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-30T19:24:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Lunch Salesforce site and Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate login functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:pages.Login_Runner@37574691]" name="tearDownClass" is-config="true" duration-ms="96" started-at="2021-07-30T19:24:09 IST" finished-at="2021-07-30T19:24:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- pages.Login_Runner -->
+      <class name="pages.ContactDelete_Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:pages.ContactDelete_Runner@5606c0b]" name="setUpClass" is-config="true" duration-ms="118" started-at="2021-07-30T19:25:50 IST" finished-at="2021-07-30T19:25:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:pages.ContactDelete_Runner@5606c0b]" name="runScenario" duration-ms="10192" started-at="2021-07-30T19:25:51 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-30T19:26:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check the Contact and Delete"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[validate Delete functinality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:pages.ContactDelete_Runner@5606c0b]" name="tearDownClass" is-config="true" duration-ms="52" started-at="2021-07-30T19:26:01 IST" finished-at="2021-07-30T19:26:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- pages.ContactDelete_Runner -->
+      <class name="pages.LogOut_Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:pages.LogOut_Runner@6a396c1e]" name="setUpClass" is-config="true" duration-ms="64" started-at="2021-07-30T19:27:08 IST" finished-at="2021-07-30T19:27:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:pages.LogOut_Runner@6a396c1e]" name="runScenario" duration-ms="6762" started-at="2021-07-30T19:27:08 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-30T19:27:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Logout from the salesforce dashboard"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[validate logout functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:pages.LogOut_Runner@6a396c1e]" name="tearDownClass" is-config="true" duration-ms="33" started-at="2021-07-30T19:27:15 IST" finished-at="2021-07-30T19:27:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- pages.LogOut_Runner -->
+      <class name="pages.PickList_Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:pages.PickList_Runner@1445d7f]" name="setUpClass" is-config="true" duration-ms="44" started-at="2021-07-30T19:26:28 IST" finished-at="2021-07-30T19:26:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:pages.PickList_Runner@1445d7f]" name="runScenario" duration-ms="39521" started-at="2021-07-30T19:26:28 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-30T19:27:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get pick list data using Object Manager"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Collect the data from Object Manager]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:pages.PickList_Runner@1445d7f]" name="tearDownClass" is-config="true" duration-ms="49" started-at="2021-07-30T19:27:08 IST" finished-at="2021-07-30T19:27:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- pages.PickList_Runner -->
+      <class name="pages.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:pages.Runner@25359ed8]" name="setUpClass" is-config="true" duration-ms="118" started-at="2021-07-30T19:24:09 IST" finished-at="2021-07-30T19:24:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:pages.Runner@25359ed8]" name="runScenario" duration-ms="8160" started-at="2021-07-30T19:24:09 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-30T19:24:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click the lead form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create new lead,update lead and validate functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:pages.Runner@25359ed8]" name="runScenario" duration-ms="10875" started-at="2021-07-30T19:24:17 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-30T19:24:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["create new lead by filling the form details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create new lead,update lead and validate functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:pages.Runner@25359ed8]" name="runScenario" duration-ms="16678" started-at="2021-07-30T19:24:28 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-30T19:24:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Go to Leads and selectselect requred lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create new lead,update lead and validate functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:pages.Runner@25359ed8]" name="runScenario" duration-ms="2483" started-at="2021-07-30T19:24:45 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-30T19:24:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Edit lead data and check"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create new lead,update lead and validate functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:pages.Runner@25359ed8]" name="runScenario" duration-ms="57333" started-at="2021-07-30T19:24:47 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-30T19:25:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Move Lead to contact"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create new lead,update lead and validate functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:pages.Runner@25359ed8]" name="tearDownClass" is-config="true" duration-ms="123" started-at="2021-07-30T19:25:45 IST" finished-at="2021-07-30T19:25:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- pages.Runner -->
+      <class name="pages.Import_Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:pages.Import_Runner@80ec1f8]" name="setUpClass" is-config="true" duration-ms="51" started-at="2021-07-30T19:26:01 IST" finished-at="2021-07-30T19:26:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:pages.Import_Runner@80ec1f8]" name="runScenario" duration-ms="27512" started-at="2021-07-30T19:26:01 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-30T19:26:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Import the lead by sending the CSV file"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Import the Lead]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:pages.Import_Runner@80ec1f8]" name="tearDownClass" is-config="true" duration-ms="37" started-at="2021-07-30T19:26:28 IST" finished-at="2021-07-30T19:26:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- pages.Import_Runner -->
+      <class name="base.Base">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:base.Base@31206beb]" name="setUp" is-config="true" duration-ms="7337" started-at="2021-07-30T19:23:48 IST" finished-at="2021-07-30T19:23:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="teadDown()[pri:0, instance:base.Base@31206beb]" name="teadDown" is-config="true" duration-ms="638" started-at="2021-07-30T19:27:15 IST" finished-at="2021-07-30T19:27:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- base.Base -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
